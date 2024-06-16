@@ -1,0 +1,24 @@
+
+from functions import *
+
+beolvas('varosok.txt')
+        
+# print(f'3. feladat: Városok száma: {len(varosok)} db') ha nem kell külön függvény
+print(f'3. feladat: Városok száma: {varosokszama} db')
+
+print(f'4. feladat: indiai nagyvárososk lakosságának összege: {orszaglakossaga("India")} fő')
+
+legnagyobb=legnagyobb_lakossag()
+print(f'5. feladat: A legnagyobb város adatai: \n\tNév: {legnagyobb.varos} \n\tOrszág: {legnagyobb.orszag} \n\tLakosság: {legnagyobb.lakossag} ezer fő')
+
+if orszagkeres('Magyarország'):
+    print('6. feladat: Van magyar város az adatok között.')
+else:
+    print('6. feladat: Nincs magyar város az adatok között.')
+
+print(f'7. feladat: Városok egy szóközzel: {szokozvarososk(1)} db')
+
+print('8. feladat: Ország statisztika')
+for key,value in ordszagstatisztisztika().oitems():
+    if value>6:
+        print(f'\t{key} - {value} db')
