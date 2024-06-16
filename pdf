@@ -1,0 +1,15 @@
+A föld legnagyobb városai
+1. A következő feladat megoldásához hozzon létre grafikus vagy konzol alkalmazást (projektet) Városok azonosítóval!
+Hozzon létre saját osztályt Város azonosítóval a leírás és az osztálydiagram szerint! A város nevének, országának és a lakosok számának a tárolására készítsen megfelelő típusú publikus jellemzőket! Készítse el az osztály konstruktorát is! A konstruktor sor nevű paramétere karakterlánc típusú, sorrendben egy város adatait tartalmazza a következő minta szerint:
+Barcelona;Spanyolország;1644
+Belo Horizonte;Brazília;2339
+Berlin;Németország;3438
+A város nevét és országát a város lakossága követi (ezer fő). Az adatokat pontosvessző választja el.
+2. Olvassa be a varosok.txt állomány sorait és hozzon lére osztálypéldányt (objektumot) minden egyes városhoz! Az osztálypéldányokat egy összetett változóban (pl.: vektor, lista, stb.) tárolja, mely használatával a további feladatok megoldhatók! Ügyeljen rá, hogy az állomány első sora az adatok fejlécét tartalmazza!
+3. Határozza meg és írja ki a képernyőre a minta szerint, hogy város található az állományban!
+4. Határozza meg és írja ki a képernyőre a minta szerint az indiai nagyvárosok lakosságának összegét!
+5. Határozza meg és írja ki a képernyőre a minta szerint, a legnagyobb lakosságú város adatait!
+6. Döntse el, hogy az adatok között van-e magyar város! A keresését ne folytassa, ha a választ meg tudja adni! A képernyőre írást a minta szerint végezze!
+7. Határozza meg és írja ki a képernyőre a minta szerint azoknak a városoknak a számát, ahol a város nevében pontosan egy szóköz található!
+8. Készítsen statisztikát országok szerint a nagyvárosok számairól! A képernyőre írást a minta szerint végezze!
+9. A kina.txt állományba válogassa ki a kínai nagyvárosok adatait! Az állomány soraiba a város neve és lakossága kerüljenek pontosvesszővel elválasztva a minta szerint!
